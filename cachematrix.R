@@ -1,7 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Matrix inversion is costly computation and it will cache
+# the inverse of a matrix rather than compute it repeatedly
 
-## Write a short comment describing this function
+# following two functions are used to cache the inverse of a matrix.
+
+## provides list of following functions :-
+# 1. set the value of the matrix
+
+# 2. get the value of the matrix
+
+# 3. set the value of inverse of the matrix
+
+# 4. get the value of inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
